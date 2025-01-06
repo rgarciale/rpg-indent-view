@@ -43,6 +43,7 @@
 ### 0.0.1
 
 ## Contributing
+It is modified so that it also indents the code of the RPT, RPGLE and SQLRPGLE sources
 
 Contributions are welcome! If you'd like to improve the extension or add new features, feel free to fork the repository and submit a pull request.
 
