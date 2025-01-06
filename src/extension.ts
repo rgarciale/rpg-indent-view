@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
-    let disposable = vscode.commands.registerCommand('extension.openAndReindent', async () => {
+    const disposable = vscode.commands.registerCommand('extension.openAndReindent', async () => {
         const editor = vscode.window.activeTextEditor;
         if (!editor) {
             vscode.window.showInformationMessage('No file is currently open');
@@ -33,7 +33,6 @@ export function activate(context: vscode.ExtensionContext) {
 
         reindentedText = indentRpgCode(text,indentPosition,regexAddIndent,regexAddRmvIndent,regexRmvIndent);    
 
-        const uri = vscode.Uri.parse('untitled:Reindented_' + document.fileName);
 
         // Crear un nuevo documento con el texto reindentado
         const newDoc = await vscode.workspace.
