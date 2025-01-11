@@ -31,19 +31,25 @@
 3. A new tab will open with the RPG code properly formatted and indented.
 ## Requirements
 
-- Visual Studio Code version 1.60 or later.
+- Visual Studio Code version 1.92.0 or later.
 
 ## Known Issues
 
-- The extension only works for RPG III.
+- The extension works on RPG, RPGLE and SQLRPGLE sources. If you want to use it on RPT sources do the following:
+   - Open an RPT source
+   - Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the Command Palette.
+   - Type Change Language Mode
+   - Choose Configure File Association for '.RPT' 
+   - Type RPG and press Enter
+   Now all the RPT sources will be open like RPG sources. And this extension will be able to indent it.
+
 - If you find any bugs or have suggestions for improvements, please report them on the [Issues](https://github.com/your-repository/issues) page.
 
 ## Release Notes
 
-### 0.0.1
+### 1.0.0
 
 ## Contributing
-It is modified so that it also indents the code of the RPT, RPGLE and SQLRPGLE sources
 
 Contributions are welcome! If you'd like to improve the extension or add new features, feel free to fork the repository and submit a pull request.
 

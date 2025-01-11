@@ -2,7 +2,7 @@
   "name": "rpg-indent-view",
   "displayName": "RPG indent view",
   "description": "",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "publisher": "RamiroGarcia",
   "repository": {
     "type": "git",
@@ -51,5 +51,9 @@
     "@vscode/test-electron": "^2.4.0",
     "eslint": "^8.57.0",
     "typescript": "^5.4.5"
-  }
+  },
+  "dependencies": {
+    "@halcyontech/vscode-ibmi-types": "^2.14.5",
+    "itoolkit": "^1.0.2"
+  }  
 }
