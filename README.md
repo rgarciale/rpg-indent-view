@@ -36,12 +36,12 @@
 ## Known Issues
 
 - The extension works on RPG, RPGLE and SQLRPGLE sources. If you want to use it on RPT sources do the following:
-   - Open an RPT source
+   - Open an RPT source.
    - Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the Command Palette.
-   - Type Change Language Mode
+   - Type Change Language Mode.
    - Choose Configure File Association for '.RPT' 
-   - Type RPG and press Enter
-   Now all the RPT sources will be open like RPG sources. And this extension will be able to indent it.
+   - Type RPG and press Enter.
+   Now all the RPT sources will be open like RPG sources, and this extension will be able to indent it.
 
 - If you find any bugs or have suggestions for improvements, please report them on the [Issues](https://github.com/your-repository/issues) page.
 
